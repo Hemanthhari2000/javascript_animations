@@ -19,3 +19,12 @@ document.addEventListener('visibilitychange', function(){
         visble.appendChild(nodeVisible);
     }
 });
+
+
+$(window).focus(function(){
+    console.log("Window Focused.");
+});
+
+$(window).blur(function(){
+    console.log("Window not in use.");
+});
